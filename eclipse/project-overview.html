@@ -1,0 +1,13 @@
+**Note:** This only documents the old project overview. Another commit will correct this.
+
+The Eclipse Thingweb™ project currently hosts one sub-project and plans for a second one.
+
+## Thingweb node-wot
+
+node-wot is the official reference implementation of the W3C WoT Working Group and implements the so-called "Servient Architecture":
+node-wot provides a WoT Thing Description parser and serializer, several "Protocol Bindings" implementing the WoT Binding Templates, as well as a runtime system ("WoT Runtime") providing the WoT Scripting API for applications. It is based on Node.js and its fundamental module structure.
+node-wot also provides a browser bundle to visualize TDs and to enable the interaction with Things from the Web browser. A simple example can be found here: WebUI
+
+## Thingweb Directory (planned)
+
+A Thing Directory is a directory service for WoT Thing Descriptions (TDs) that provides a Web interface to register TDs (aligned with draft-ietf-core-resource-directory) and look them up (e.g., using SPARQL queries or CoRE Link Format). The Thingweb Directory implements this service using the Apache Jena triple store and SPARQL endpoint.
