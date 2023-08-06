@@ -1,13 +1,18 @@
-**Note:** This only documents the old project overview. Another commit will correct this.
+<p>Eclipse Thingweb&trade; offers components for making IoT solutions interoperable at scale by leveraging the W3C WoT standards, no matter if improving an existing solution or building a new one:</p>
 
-The Eclipse Thingweb™ project currently hosts one sub-project and plans for a second one.
+<ul>
+	<li><strong>Describe devices</strong>: information, capabilities, and data schemas in a standardized format</li>
+	<li><strong>Integrate devices</strong>: connectivity via various IoT protocols under a uniform interface</li>
+	<li><strong>Validate device descriptions</strong>: consistent metadata for your devices and across directories&nbsp;</li>
+	<li><strong>Develop applications</strong>: Web browser-like runtime for (headless) portable IoT apps</li>
+</ul>
 
-## Thingweb node-wot
+<p>Each component within the Eclipse Thingweb&trade; project is designed to be used independently from each other while working harmoniously together. This gives developers the flexibility to choose the specific tools they need for their IoT solution without sacrificing interoperability.</p>
 
-node-wot is the official reference implementation of the W3C WoT Working Group and implements the so-called "Servient Architecture":
-node-wot provides a WoT Thing Description parser and serializer, several "Protocol Bindings" implementing the WoT Binding Templates, as well as a runtime system ("WoT Runtime") providing the WoT Scripting API for applications. It is based on Node.js and its fundamental module structure.
-node-wot also provides a browser bundle to visualize TDs and to enable the interaction with Things from the Web browser. A simple example can be found here: WebUI
+<p>Selected libraries, tools, and services: (more on GitHub):</p>
 
-## Thingweb Directory (planned)
-
-A Thing Directory is a directory service for WoT Thing Descriptions (TDs) that provides a Web interface to register TDs (aligned with draft-ietf-core-resource-directory) and look them up (e.g., using SPARQL queries or CoRE Link Format). The Thingweb Directory implements this service using the Apache Jena triple store and SPARQL endpoint.
+<ul>
+	<li><a href="https://github.com/eclipse-thingweb/node-wot" target="_blank">node-wot</a>: Components for building IoT devices or for interacting with them over various IoT protocols&nbsp;</li>
+	<li><a href="https://github.com/eclipse-thingweb/playground" target="_blank">playground</a>: Thing Description (TD) and Thing Model (TM) validation and manipulation</li>
+	<li><a href="http://plugfest.thingweb.io/" target="_blank">Online Things</a>: Simulated IoT devices to test different IoT protocols</li>
+</ul>
