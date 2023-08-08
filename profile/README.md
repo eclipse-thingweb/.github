@@ -9,7 +9,7 @@ Eclipse Thingweb™ offers components for making IoT solutions interoperable at 
 
 Each component within the Eclipse Thingweb™ project is designed to be used independently from each other while working harmoniously together. This gives developers the flexibility to choose the specific tools they need for their IoT solution without sacrificing interoperability.
 
-Selected libraries, tools, and services: (more on GitHub):
+Selected libraries, tools, and services:
 
 - [node-wot](https://github.com/eclipse-thingweb/node-wot): Components for building IoT devices or for interacting with them over various IoT protocols 
 - [playground](https://github.com/eclipse-thingweb/playground): Thing Description (TD) and Thing Model (TM) validation and manipulation
