@@ -8,30 +8,30 @@ These are documented below, alongside the service using the port.
 
 | TCP PORT | Service |
 |----------|---------|
-|   80     |  Apache Web Server  |
-|   8080   |  Available       |
-|   8081   |  Available       |
-|   8082   |  Available        |
-|   8083   |  Example Things       |
-|   8084   |  Available       |
-|   8085   |  Available       |
-|   8086   |  Available       |
-|   8087   |  Available       |
-|   8088   |  WoT FX UI       |
-|   8089   |  Available       |
-|   5685   |  Available       |
+|   80     |  Apache Web Server |
+|   8080   |  -       |
+|   8081   |  -       |
+|   8082   |  -        |
+|   8083   |  Example Things (HTTP) |
+|   8084   |  -       |
+|   8085   |  -       |
+|   8086   |  -       |
+|   8087   |  -       |
+|   8088   |  WoT FX UI |
+|   8089   |  -       |
+|   5685   |  -       |
 
 
 ## UDP Ports
 
 | UDP PORT | Service |
 |----------|---------|
-|   5680   |  Available       |
-|   5681   |  Available       |
-|   5682   |  Available       |
-|   5683   |  Example Things       |
-|   5684   |  Available       |
-|   5686   |  Available       |
-|   5687   |  Available       |
-|   5688   |  Available       |
-|   5689   |  Available       |
+|   5680   |  -       |
+|   5681   |  -       |
+|   5682   |  -       |
+|   5683   |  Example Things (CoAP) |
+|   5684   |  -       |
+|   5686   |  -       |
+|   5687   |  -       |
+|   5688   |  -       |
+|   5689   |  -       |
