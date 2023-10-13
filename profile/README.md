@@ -1,4 +1,4 @@
-<img title="ThingWeb" alt="Thingweb logo" src="https://raw.githubusercontent.com/eclipse-thingweb/website/master/misc/thingweb_logo.svg" width=300px>
+<img title="ThingWeb" alt="Thingweb logo" src="https://raw.githubusercontent.com/eclipse-thingweb/website/master/misc/thingweb_logo.svg" width="300px">
 
 Eclipse Thingweb™ offers components for making IoT solutions interoperable at scale by leveraging the W3C WoT standards, no matter if improving an existing solution or building a new one:
 
