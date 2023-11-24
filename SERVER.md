@@ -1,10 +1,24 @@
-# Ports Documentation
+# Eclipse Server Information
+
+## Redirects
+
+The current redirects in place are:
+
+```
+<VirtualHost *:80>
+    ServerName plugfest.thingweb.io
+    RedirectPermanent /playground-new https://playground.thingweb.io
+    RedirectPermanent /index.html https://www.thingweb.io/services
+</VirtualHost>
+```
+
+## Ports Documentation
 
 Eclipse Thingweb uses a cloud instance provided by Eclipse Foundation to host its services on [plugfest.thingweb.io](http://plugfest.thingweb.io/). 
 In order to function as a TCP/UDP server, we have some ports open to the public Internet.
 These are documented below, alongside the service using the port.
 
-## TCP Ports
+### TCP Ports
 
 | TCP PORT | Service |
 |----------|---------|
@@ -22,7 +36,7 @@ These are documented below, alongside the service using the port.
 |   5685   |  -       |
 
 
-## UDP Ports
+### UDP Ports
 
 | UDP PORT | Service |
 |----------|---------|
