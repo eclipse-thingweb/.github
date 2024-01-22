@@ -1,9 +1,9 @@
 <h1>
   <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/eclipse-thingweb/thingweb/main/brand/logos/thingweb_for_dark_bg.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/eclipse-thingweb/thingweb/master/brand/logos/thingweb.svg">
-  <img title="Eclipse Thingweb" alt="Eclipse Thingweb logo" src="https://github.com/eclipse-thingweb/thingweb/raw/main/brand/logos/thingweb.svg" width="300">
-</picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/eclipse-thingweb/thingweb/main/brand/logos/thingweb_for_dark_bg.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/eclipse-thingweb/thingweb/master/brand/logos/thingweb.svg">
+    <img title="Eclipse Thingweb" alt="Eclipse Thingweb logo" src="https://github.com/eclipse-thingweb/thingweb/raw/main/brand/logos/thingweb.svg" width="300">
+  </picture>
 </h1>
 
 Eclipse Thingweb™ offers components for making IoT solutions interoperable at scale by leveraging the W3C WoT standards, no matter if improving an existing solution or building a new one:
