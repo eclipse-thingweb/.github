@@ -37,6 +37,13 @@ OR
 
 `node packages/cli/dist/cli.js examples/testthing/testthing.js examples/scripts/counter.js examples/scripts/smart-coffee-machine.js `
 
+## Quickstart Things
+
+We now use [pm2](https://pm2.keymetrics.io/) to automatically start and manage the Quickstart Things. This avoids the use of screens.
+
+- `pm2 start app.js` will start each Thing
+- `pm2 monit` will show currently running Things
+
 ## Start wot-fxui (in background / server mode)
 
 cd wot-fxui/
